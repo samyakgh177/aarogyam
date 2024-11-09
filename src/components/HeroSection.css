@@ -1,0 +1,19 @@
+/* styles.css or your relevant CSS file */
+.hero-image {
+    position: absolute; /* Position it absolutely within the parent */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Cover the entire area while maintaining aspect ratio */
+    opacity: 0.8; /* Optional: Adjust opacity */
+    transition: opacity 0.5s ease, filter 0.5s ease; /* Add transition for filter */
+    filter: grayscale(0%); /* Make the image black and white */
+    border-radius: 0%;
+  }
+  
+  .hero-image:hover {
+    opacity: 1; /* Optional: Full opacity on hover */
+    filter: grayscale(0%); /* Optional: Remove grayscale on hover */
+  }
+  

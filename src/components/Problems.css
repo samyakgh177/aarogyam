@@ -1,0 +1,42 @@
+/* SuccessStories.css */
+
+/* Background color for success stories section */
+.success-stories-bg {
+    background-color: #faf3e0; /* Set the background color */
+  }
+  
+  /* Customize the dot colors */
+  .slick-dots li button:before {
+    color: #ccc; /* Inactive dot color */
+    opacity: 1; /* Make sure it's fully opaque */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #4f46e5; /* Active dot color */
+  }
+  
+  /* Increase the size of the navigation arrows */
+  .slick-prev,
+  .slick-next {
+    font-size: 24px; /* Adjust the font size */
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    line-height: 50px; /* Center the icon vertically */
+    color: #4f46e5; /* Change arrow color */
+    display: flex; /* Use flex to center the icon */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Align items horizontally */
+  }
+  
+  /* Remove text from buttons */
+  .slick-prev:before,
+  .slick-next:before {
+    content: ""; /* Remove any default content */
+  }
+  
+  /* Change color on hover */
+  .slick-prev:hover,
+  .slick-next:hover {
+    color: #3b82f6; /* Change color on hover */
+  }
+  
