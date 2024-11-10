@@ -28,7 +28,13 @@ export const TransformSection = () => {
           hover:bg-yellow-400 transition-colors duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
           style={{ backgroundColor: colors.accent }} // Use accent color for the button
         >
-          Join Our Mission
+          <a
+            href="https://jatinkumar300403-aarogyam-app-rslaze.streamlit.app/" // Added the link here
+            target="_blank" // Opens the link in a new tab
+            rel="noopener noreferrer" // Security feature
+            
+          >Join Our Mission</a>
+          
         </button>
       </div>
     </div>
